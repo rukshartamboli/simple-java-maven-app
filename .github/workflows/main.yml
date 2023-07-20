@@ -22,10 +22,10 @@ jobs:
         uses: actions/checkout@v2
         
       - name: configure aws credentials
-        uses: aws-actions/configure-aws-credentials@v1.7.0
+        uses: aws-actions/configure-aws-credentials@v2
         with:
           role-to-assume: arn:aws:iam::676968646773:role/github-trust-role #change to reflect your IAM role’s ARN
-          role-session-name: github-trust-role
+          role-session-name: githubtrustrole
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Login to Amazon ECR
