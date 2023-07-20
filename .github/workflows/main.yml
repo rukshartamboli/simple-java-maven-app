@@ -1,4 +1,4 @@
-name: test and configure
+name: test and configure to ECR
 
 on:
   push:
