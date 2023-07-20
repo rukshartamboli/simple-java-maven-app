@@ -28,5 +28,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t 676968646773.dkr.ecr.ap-southeast-1.amazonaws.com/action-test:v1 .
-          docker push 676968646773.dkr.ecr.ap-southeast-1.amazonaws.com/action-test:v1
+          docker build -t 676968646773.dkr.ecr.ap-southeast-1.amazonaws.com/action-test:v2 .
+          docker push 676968646773.dkr.ecr.ap-southeast-1.amazonaws.com/action-test:v2
