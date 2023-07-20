@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: configure aws credentials
-        uses: aws-actions/configure-aws-credentials@v2
+        uses: aws-actions/configure-aws-credentials@v3
         with:
           role-to-assume: arn:aws:iam::676968646773:role/github-trust-role #change to reflect your IAM role’s ARN
           role-session-name: githubtrustrole
